@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strrchr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tatwatan <tatwatan@student.42.fr>          +#+  +:+       +#+        */
+/*   By: tatsumi <tatsumi@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/25 03:41:56 by tatwatan          #+#    #+#             */
-/*   Updated: 2023/09/25 04:57:27 by tatwatan         ###   ########.fr       */
+/*   Updated: 2024/01/03 01:37:28 by tatsumi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,6 +33,9 @@ char	*ft_strrchr(const char *s, int c)
 // #include <stdio.h>
 // int main(void)
 // {
-// 	ft_strrchr();
+// 	char *letter;
+
+// 	letter = "abcdefg";
+// 	printf("%p\n",ft_strrchr(letter, 'e'));
 // 	return (0);
 // }

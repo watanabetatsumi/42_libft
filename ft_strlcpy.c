@@ -1,6 +1,6 @@
 #include "libft.h"
 
-void ft_strlcpy(void)
+size_t ft_strlcpy(char *dst, const char *src, size_t dstsize);
 {
 }
 
