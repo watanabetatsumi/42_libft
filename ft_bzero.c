@@ -2,14 +2,14 @@
 
 void ft_bzero(void *s, size_t n)
 {
-    unsigned char	*str;
+  unsigned char	*str;
 
 	str = (unsigned char*)s;
-    while (n--)
-    {
+  while (n--)
+  {
 		*str = '\0';
 		str++;
-    }
+  }
 }
 
 #include <strings.h>
